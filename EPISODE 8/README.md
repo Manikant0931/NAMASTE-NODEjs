@@ -1,5 +1,6 @@
 # V8 JavaScript Engine: Code Execution Phases
-![V8 Engine Phases](./v8_phases.png)
+![V8 Engine Phases]
+<!-- //AST EXPLORER(website) IS JUST WOW:) -->
 ## 1. Parsing Stage
 - **Lexical Analysis:** V8 reads the JavaScript code and breaks it down into tokens, which are small chunks like keywords, operators, and identifiers.
 - **Syntax Analysis:** The tokens are then arranged into a structure called an Abstract Syntax Tree (AST), which represents the code's structure and logic.
@@ -23,4 +24,4 @@
 
 This step-by-step process ensures that JavaScript code is executed as quickly and efficiently as possible.
 """
-![V8 Engine](./v8_arc.png)
+![V8 Engine]

@@ -1,5 +1,18 @@
 # Understanding Node.js: V8, libuv, and File Operations
 
+## What is libuv?
+libuv is a C library that provides:
+Event loop
+Asynchronous I/O
+Thread pool
+## libuv handles:
+Timers (setTimeout, setInterval)
+File system operations
+Networking (TCP, UDP)
+DNS
+Thread pool (for heavy tasks)
+
+
 ## Overview
 
 Node.js leverages the V8 engine and libuv library to provide efficient handling of both synchronous and asynchronous operations. This document explains the fundamental concepts of V8, libuv, and their interactions with file operations, including correct and incorrect usages of `fs.readFileSync` and `fs.readFile`.
@@ -18,7 +31,7 @@ Node.js leverages the V8 engine and libuv library to provide efficient handling 
 
 ## Code Breakdown
 
-### Incorrect Usage of `fs.readFileSync`
+### Incorrect Usage of `fs.readFileSync` 
 
 ```javascript
 fs.readFileSync('./file.txt', 'utf-8', (err, data) => {
@@ -157,3 +170,5 @@ console.log("multiplication result is: ", c);
 
 The integration of V8 and libuv enables Node.js to handle multiple tasks efficiently, combining synchronous and asynchronous processing in a single-threaded environment.
 EOF
+
+
