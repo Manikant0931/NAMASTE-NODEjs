@@ -6,9 +6,8 @@
 
 const {MongoClient}=require("mongodb");
 
-// adding xxxxxx for safety
-// const url= "mongodb+srv://xxNaxxmaxxsteDev:sYYgIhUzVmHzDX3Q@namastenode.esecg3t.mongodb.net/";
-//replace it const url= "mongodb+srv://NamasteDev:sYYgIhUzVmHzDX3Q@namastenode.esecg3t.mongodb.net/";
+
+//the below line is replaced,while revising take care of it..
 const url= "your-connection-string-here";
 
 
