@@ -6,8 +6,8 @@
 
 const {MongoClient}=require("mongodb");
 
-
-// const url= "mongodb+srv://NamasteDev:sYYgIhUzVmHzDX3Q@namastenode.esecg3t.mongodb.net/";
+// adding xxxxxx for safety
+// const url= "mongodb+srv://xxNaxxmaxxsteDev:sYYgIhUzVmHzDX3Q@namastenode.esecg3t.mongodb.net/";
 //replace it const url= "mongodb+srv://NamasteDev:sYYgIhUzVmHzDX3Q@namastenode.esecg3t.mongodb.net/";
 const url= "your-connection-string-here";
 
